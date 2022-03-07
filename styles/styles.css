@@ -497,6 +497,8 @@ img {
 
 .main-index-input {
   width: 600px;
+  box-sizing: border-box;
+  padding-left: 22px;
   font-family: inherit;
   font-size: 18px;
   line-height: 26px;
@@ -512,27 +514,6 @@ img {
 .main-index-input:focus {
   outline: 3px solid #83B3D3;
   background: #E6E6E6;
-}
-
-
-.main-index-input::-webkit-input-placeholder {
-  padding-left: 22px;
-}
-
-.main-index-input::-moz-placeholder {
-  padding-left: 22px;
-}
-
-.main-index-input:-ms-input-placeholder {
-  padding-left: 22px;
-}
-
-.main-index-input::-ms-input-placeholder {
-  padding-left: 22px;
-}
-
-.main-index-input::placeholder {
-  padding-left: 22px;
 }
 
 
@@ -1449,6 +1430,8 @@ img {
 
 .catalog-index-input {
   width: 600px;
+  box-sizing: border-box;
+  padding-left: 22px;
   font-family: inherit;
   font-size: 18px;
   line-height: 26px;
@@ -1463,26 +1446,6 @@ img {
 
 .catalog-index-input:focus {
   outline: 3px solid #83B3D3;
-}
-
-.catalog-index-input::-webkit-input-placeholder {
-  padding-left: 22px;
-}
-
-.catalog-index-input::-moz-placeholder {
-  padding-left: 22px;
-}
-
-.catalog-index-input:-ms-input-placeholder {
-  padding-left: 22px;
-}
-
-.catalog-index-input::-ms-input-placeholder {
-  padding-left: 22px;
-}
-
-.catalog-index-input::placeholder {
-  padding-left: 22px;
 }
 
 /*footer*/
